@@ -78,9 +78,12 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [System.Data.SQLite](https://system.data.sqlite.org) - SQLite
 
 * Messaging
- * [Azure Event Hubs](https://github.com/azure/azure-event-hubs-dotnet) - A Microsoft supported Event Hubs library for sending and receiving messages at scale.
+ * [Azure Service Bus](https://github.com/azure/azure-service-bus-dotnet) - .NET Standard client library for [Azure Service Bus](https://docs.microsoft.com/en-us/azure/service-bus/).
+ * [Azure Event Hubs](https://github.com/azure/azure-event-hubs-dotnet) - .NET Standard client library for [Azure Event Hubs](https://docs.microsoft.com/en-us/azure/event-hubs/).
+  * [Azure Relay](https://github.com/azure/azure-relay-dotnet) - .NET Standard client library for [Azure Relay](https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-what-is-it).
  * [NServiceBus](https://github.com/Particular/NServiceBus) - The most popular service bus for .NET
  * [AzureNetQ](https://github.com/Roysvork/AzureNetQ) - An easy to use .NET API for Azure Service Bus.
+  * [Brighter](https://github.com/iancooper/Paramore) - A Command Dispatcher and Command Processor library with support for Work or Task Queues over different MoM implementations such as RabbitMQ
  * [EasyNetQ](https://github.com/mikehadlow/EasyNetQ) - An easy to use .NET API for RabbitMQ.
  * [Lime](https://github.com/takenet/lime-csharp) - A lightweight messaging library. 
  * [MassTransit](https://github.com/MassTransit/MassTransit) - A distributed application framework for RabbitMQ and Azure Service Bus.
@@ -97,9 +100,9 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  * [Automatonymous](https://github.com/MassTransit/Automatonymous) - An asynchronous state machine engine with messaging support. 
  * [Bing.RestClient](https://github.com/AdvancedREI/Bing.RestClient) - Access the Bing REST APIs from a unified client.
  * [BoxKite.Twitter](https://github.com/NickHodge/BoxKite.Twitter/) - Twitter .NET Client Library for the 1.1 Twitter API, incorporating REST API, User streaming and Search Streaming. Uses Reactive Extensions (Rx).
- * [Brighter](https://github.com/iancooper/Paramore) - A Command Dispatcher and Command Processor library with support for Work or Task Queues over different MoM implementations such as RabbitMQ
  * [Cecil](https://github.com/jbevain/cecil) - A popular library to read, modify and write .NET binaries.
  * [Cimbalino Toolkit](https://github.com/Cimbalino/Cimbalino-Toolkit) - A set of useful and powerful tools that will help you build your Windows Platform applications.
+ * [CodeJam](https://github.com/rsdn/CodeJam) - Set of handy reusable .NET components that can simplify your daily work and save your time when you copy and paste your favorite helper methods and classes from one project to another. 
  * [Coding4Fun Toolkit](https://github.com/Coding4FunProjects/Coding4FunToolkit)
  * [ColoredConsole](https://github.com/colored-console/colored-console) - Add some color to your console.
  * [ColorSharp](https://github.com/Litipk/ColorSharp) - Library to handle color spaces and light spectrums.
@@ -174,7 +177,8 @@ Please sort projects alphabetically and provide a one-line description. GitHub/C
  
 * Graphics & Server-side Image Processing
  * [DynamicImage](https://github.com/tgjones/dynamic-image) - WPF-based server-side image rendering system - lots of visual effects implemented as high-performance shaders. Has URL api, several plugins available.
- * [ImageProcessor](https://github.com/jimbobsquarepants/imageprocessor/) - A cross-platform library for processing of image files written in C#. Available in Core (NetStandard 1.1 X-Plat) and Framework (NET 4.5+ GDI+ based) flavours.
+ * [ImageSharp](https://github.com/jimbobsquarepants/imagesharp/) - A cross-platform library for processing of image files written in C#. (NetStandard 1.1 X-Plat).
+ * [ImageProcessor](https://github.com/jimbobsquarepants/imageprocessor/) - A fluent wrapper around System.Drawing for the processing of image files (NET 4.5+ GDI+ based).
  * [ImageResizer](https://github.com/imazen/resizer) - Add commands to image URLs to get altered versions in milliseconds. Edit, filter, touch-up images in real-time. (multiple backends - FreeImage, C++/CLI, GDI+, WIC). 45+ plugins available.
  * [King.Azure.Imaging](https://github.com/jefking/King.Azure.Imaging) - Scalable image uploading and processing for Azure.
  * [Magick.NET](https://magick.codeplex.com) - The .NET (Core/Framework) wrapper for the [ImageMagick](https://www.imagemagick.org) library that supports over [100 major file formats](https://www.imagemagick.org/script/formats.php).
